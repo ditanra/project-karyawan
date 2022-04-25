@@ -14,18 +14,18 @@ if (isset($_POST['button_logout'])) {
 <html lang="en">
 
 <?php
-include "components/head.php";
+include "component/head.php";
 include_once "../database/database.php";
 ?>
 
 <body>
 
-    <?php include "components/header.php" ?>
+    <?php include "component/header.php" ?>
     
     <div class="container-fluid">
         <div class="row">
            
-            <?php include "components/nav.php" ?>
+            <?php include "component/nav.php" ?>
             
             <?php include "routes.php" ?>
         </div>
