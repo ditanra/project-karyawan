@@ -13,11 +13,10 @@
                 $divisi = $_POST['divisi'];
                 $jabatan = $_POST['jabatan'];
 
-                $insertSQL = "INSERT INTO bagian VALUES (NULL,'" . $nik . "','" . $nama_karyawan . "','"
-                    . $alamat . "','" . $jenis_kelamin . "','" . $divisi . "','" . $jabatan . "')";
+                $insertSQL = "INSERT INTO bagian VALUES (NULL,'" . $nik . "','" . $nama_karyawan . "','" . $alamat . "','" . $jenis_kelamin . "','" . $divisi . "','" . $jabatan . "')";
 
 
-               $insertSQL = "INSERT INTO karyawan VALUES (NULL, ?, ?, ?, ?, ?, ?)";
+              $insertSQL = "INSERT INTO bagian VALUES (NULL, ?, ?, ?, ?, ?, ?)";
 
                 $database = new Database();
                 $connection = $database->getConnection();
